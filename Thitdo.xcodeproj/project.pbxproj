@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B490FE8A2C3581610003873E /* ThitdoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B490FE892C3581610003873E /* ThitdoApp.swift */; };
+		B490FE8C2C3581610003873E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B490FE8B2C3581610003873E /* ContentView.swift */; };
+		B490FE8E2C3581630003873E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B490FE8D2C3581630003873E /* Assets.xcassets */; };
+		B490FE912C3581630003873E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B490FE902C3581630003873E /* Preview Assets.xcassets */; };
+		B490FE9B2C3581630003873E /* ThitdoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B490FE9A2C3581630003873E /* ThitdoTests.swift */; };
+		B490FEA52C3581630003873E /* ThitdoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B490FEA42C3581630003873E /* ThitdoUITests.swift */; };
+		B490FEA72C3581630003873E /* ThitdoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B490FEA62C3581630003873E /* ThitdoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B490FE972C3581630003873E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B490FE7E2C3581610003873E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B490FE852C3581610003873E;
+			remoteInfo = Thitdo;
+		};
+		B490FEA12C3581630003873E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B490FE7E2C3581610003873E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B490FE852C3581610003873E;
+			remoteInfo = Thitdo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B490FE862C3581610003873E /* Thitdo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thitdo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B490FE892C3581610003873E /* ThitdoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThitdoApp.swift; sourceTree = "<group>"; };
+		B490FE8B2C3581610003873E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B490FE8D2C3581630003873E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B490FE902C3581630003873E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B490FE962C3581630003873E /* ThitdoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThitdoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B490FE9A2C3581630003873E /* ThitdoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThitdoTests.swift; sourceTree = "<group>"; };
+		B490FEA02C3581630003873E /* ThitdoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThitdoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B490FEA42C3581630003873E /* ThitdoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThitdoUITests.swift; sourceTree = "<group>"; };
+		B490FEA62C3581630003873E /* ThitdoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThitdoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B490FE832C3581610003873E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B490FE932C3581630003873E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B490FE9D2C3581630003873E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B490FE7D2C3581610003873E = {
+			isa = PBXGroup;
+			children = (
+				B490FE882C3581610003873E /* Thitdo */,
+				B490FE992C3581630003873E /* ThitdoTests */,
+				B490FEA32C3581630003873E /* ThitdoUITests */,
+				B490FE872C3581610003873E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B490FE872C3581610003873E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B490FE862C3581610003873E /* Thitdo.app */,
+				B490FE962C3581630003873E /* ThitdoTests.xctest */,
+				B490FEA02C3581630003873E /* ThitdoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B490FE882C3581610003873E /* Thitdo */ = {
+			isa = PBXGroup;
+			children = (
+				B490FE892C3581610003873E /* ThitdoApp.swift */,
+				B490FE8B2C3581610003873E /* ContentView.swift */,
+				B490FE8D2C3581630003873E /* Assets.xcassets */,
+				B490FE8F2C3581630003873E /* Preview Content */,
+			);
+			path = Thitdo;
+			sourceTree = "<group>";
+		};
+		B490FE8F2C3581630003873E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B490FE902C3581630003873E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B490FE992C3581630003873E /* ThitdoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B490FE9A2C3581630003873E /* ThitdoTests.swift */,
+			);
+			path = ThitdoTests;
+			sourceTree = "<group>";
+		};
+		B490FEA32C3581630003873E /* ThitdoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B490FEA42C3581630003873E /* ThitdoUITests.swift */,
+				B490FEA62C3581630003873E /* ThitdoUITestsLaunchTests.swift */,
+			);
+			path = ThitdoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B490FE852C3581610003873E /* Thitdo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B490FEAA2C3581630003873E /* Build configuration list for PBXNativeTarget "Thitdo" */;
+			buildPhases = (
+				B490FE822C3581610003873E /* Sources */,
+				B490FE832C3581610003873E /* Frameworks */,
+				B490FE842C3581610003873E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Thitdo;
+			productName = Thitdo;
+			productReference = B490FE862C3581610003873E /* Thitdo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B490FE952C3581630003873E /* ThitdoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B490FEAD2C3581630003873E /* Build configuration list for PBXNativeTarget "ThitdoTests" */;
+			buildPhases = (
+				B490FE922C3581630003873E /* Sources */,
+				B490FE932C3581630003873E /* Frameworks */,
+				B490FE942C3581630003873E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B490FE982C3581630003873E /* PBXTargetDependency */,
+			);
+			name = ThitdoTests;
+			productName = ThitdoTests;
+			productReference = B490FE962C3581630003873E /* ThitdoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B490FE9F2C3581630003873E /* ThitdoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B490FEB02C3581630003873E /* Build configuration list for PBXNativeTarget "ThitdoUITests" */;
+			buildPhases = (
+				B490FE9C2C3581630003873E /* Sources */,
+				B490FE9D2C3581630003873E /* Frameworks */,
+				B490FE9E2C3581630003873E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B490FEA22C3581630003873E /* PBXTargetDependency */,
+			);
+			name = ThitdoUITests;
+			productName = ThitdoUITests;
+			productReference = B490FEA02C3581630003873E /* ThitdoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B490FE7E2C3581610003873E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					B490FE852C3581610003873E = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					B490FE952C3581630003873E = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B490FE852C3581610003873E;
+					};
+					B490FE9F2C3581630003873E = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B490FE852C3581610003873E;
+					};
+				};
+			};
+			buildConfigurationList = B490FE812C3581610003873E /* Build configuration list for PBXProject "Thitdo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B490FE7D2C3581610003873E;
+			productRefGroup = B490FE872C3581610003873E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B490FE852C3581610003873E /* Thitdo */,
+				B490FE952C3581630003873E /* ThitdoTests */,
+				B490FE9F2C3581630003873E /* ThitdoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B490FE842C3581610003873E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B490FE912C3581630003873E /* Preview Assets.xcassets in Resources */,
+				B490FE8E2C3581630003873E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B490FE942C3581630003873E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B490FE9E2C3581630003873E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B490FE822C3581610003873E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B490FE8C2C3581610003873E /* ContentView.swift in Sources */,
+				B490FE8A2C3581610003873E /* ThitdoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B490FE922C3581630003873E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B490FE9B2C3581630003873E /* ThitdoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B490FE9C2C3581630003873E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B490FEA72C3581630003873E /* ThitdoUITestsLaunchTests.swift in Sources */,
+				B490FEA52C3581630003873E /* ThitdoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B490FE982C3581630003873E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B490FE852C3581610003873E /* Thitdo */;
+			targetProxy = B490FE972C3581630003873E /* PBXContainerItemProxy */;
+		};
+		B490FEA22C3581630003873E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B490FE852C3581610003873E /* Thitdo */;
+			targetProxy = B490FEA12C3581630003873E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B490FEA82C3581630003873E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B490FEA92C3581630003873E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B490FEAB2C3581630003873E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Thitdo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = blackbird.Thitdo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B490FEAC2C3581630003873E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Thitdo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = blackbird.Thitdo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B490FEAE2C3581630003873E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = blackbird.ThitdoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thitdo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Thitdo";
+			};
+			name = Debug;
+		};
+		B490FEAF2C3581630003873E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = blackbird.ThitdoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thitdo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Thitdo";
+			};
+			name = Release;
+		};
+		B490FEB12C3581630003873E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = blackbird.ThitdoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Thitdo;
+			};
+			name = Debug;
+		};
+		B490FEB22C3581630003873E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = blackbird.ThitdoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Thitdo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B490FE812C3581610003873E /* Build configuration list for PBXProject "Thitdo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B490FEA82C3581630003873E /* Debug */,
+				B490FEA92C3581630003873E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B490FEAA2C3581630003873E /* Build configuration list for PBXNativeTarget "Thitdo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B490FEAB2C3581630003873E /* Debug */,
+				B490FEAC2C3581630003873E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B490FEAD2C3581630003873E /* Build configuration list for PBXNativeTarget "ThitdoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B490FEAE2C3581630003873E /* Debug */,
+				B490FEAF2C3581630003873E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B490FEB02C3581630003873E /* Build configuration list for PBXNativeTarget "ThitdoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B490FEB12C3581630003873E /* Debug */,
+				B490FEB22C3581630003873E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B490FE7E2C3581610003873E /* Project object */;
+}
