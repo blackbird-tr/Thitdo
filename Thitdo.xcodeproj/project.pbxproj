@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B46AB6892C3694DF00F17273 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46AB6882C3694DF00F17273 /* ButtonView.swift */; };
 		B490FE8A2C3581610003873E /* ThitdoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B490FE892C3581610003873E /* ThitdoApp.swift */; };
-		B490FE8C2C3581610003873E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B490FE8B2C3581610003873E /* ContentView.swift */; };
+		B490FE8C2C3581610003873E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B490FE8B2C3581610003873E /* MainView.swift */; };
 		B490FE8E2C3581630003873E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B490FE8D2C3581630003873E /* Assets.xcassets */; };
 		B490FE912C3581630003873E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B490FE902C3581630003873E /* Preview Assets.xcassets */; };
 		B490FE9B2C3581630003873E /* ThitdoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B490FE9A2C3581630003873E /* ThitdoTests.swift */; };
 		B490FEA52C3581630003873E /* ThitdoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B490FEA42C3581630003873E /* ThitdoUITests.swift */; };
 		B490FEA72C3581630003873E /* ThitdoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B490FEA62C3581630003873E /* ThitdoUITestsLaunchTests.swift */; };
+		B490FEB72C3582540003873E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B490FEB62C3582540003873E /* LoginView.swift */; };
+		B490FEB92C3582600003873E /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B490FEB82C3582600003873E /* RegisterView.swift */; };
+		B4F88E382C368E9F0001ED65 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F88E372C368E9F0001ED65 /* MainViewModel.swift */; };
+		B4F88E3A2C368EAB0001ED65 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F88E392C368EAB0001ED65 /* LoginViewModel.swift */; };
+		B4F88E3C2C368EB80001ED65 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F88E3B2C368EB80001ED65 /* RegisterViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B46AB6882C3694DF00F17273 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		B490FE862C3581610003873E /* Thitdo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thitdo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B490FE892C3581610003873E /* ThitdoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThitdoApp.swift; sourceTree = "<group>"; };
-		B490FE8B2C3581610003873E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B490FE8B2C3581610003873E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		B490FE8D2C3581630003873E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B490FE902C3581630003873E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B490FE962C3581630003873E /* ThitdoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThitdoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +51,11 @@
 		B490FEA02C3581630003873E /* ThitdoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThitdoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B490FEA42C3581630003873E /* ThitdoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThitdoUITests.swift; sourceTree = "<group>"; };
 		B490FEA62C3581630003873E /* ThitdoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThitdoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B490FEB62C3582540003873E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		B490FEB82C3582600003873E /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		B4F88E372C368E9F0001ED65 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		B4F88E392C368EAB0001ED65 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		B4F88E3B2C368EB80001ED65 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +107,9 @@
 			isa = PBXGroup;
 			children = (
 				B490FE892C3581610003873E /* ThitdoApp.swift */,
-				B490FE8B2C3581610003873E /* ContentView.swift */,
+				B490FEB52C3581850003873E /* ViewModels */,
+				B490FEB42C35817A0003873E /* Models */,
+				B490FEB32C35816C0003873E /* Views */,
 				B490FE8D2C3581630003873E /* Assets.xcassets */,
 				B490FE8F2C3581630003873E /* Preview Content */,
 			);
@@ -125,6 +139,34 @@
 				B490FEA62C3581630003873E /* ThitdoUITestsLaunchTests.swift */,
 			);
 			path = ThitdoUITests;
+			sourceTree = "<group>";
+		};
+		B490FEB32C35816C0003873E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B490FE8B2C3581610003873E /* MainView.swift */,
+				B490FEB62C3582540003873E /* LoginView.swift */,
+				B490FEB82C3582600003873E /* RegisterView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B490FEB42C35817A0003873E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B490FEB52C3581850003873E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B4F88E372C368E9F0001ED65 /* MainViewModel.swift */,
+				B4F88E392C368EAB0001ED65 /* LoginViewModel.swift */,
+				B4F88E3B2C368EB80001ED65 /* RegisterViewModel.swift */,
+				B46AB6882C3694DF00F17273 /* ButtonView.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +299,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B490FE8C2C3581610003873E /* ContentView.swift in Sources */,
+				B4F88E382C368E9F0001ED65 /* MainViewModel.swift in Sources */,
+				B490FEB72C3582540003873E /* LoginView.swift in Sources */,
+				B46AB6892C3694DF00F17273 /* ButtonView.swift in Sources */,
+				B4F88E3C2C368EB80001ED65 /* RegisterViewModel.swift in Sources */,
+				B4F88E3A2C368EAB0001ED65 /* LoginViewModel.swift in Sources */,
+				B490FEB92C3582600003873E /* RegisterView.swift in Sources */,
+				B490FE8C2C3581610003873E /* MainView.swift in Sources */,
 				B490FE8A2C3581610003873E /* ThitdoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
